@@ -1,0 +1,71 @@
+.navBar {
+    display: flex;
+    width: auto;
+    height: 3rem;
+    background-color: var(--color-5);
+    justify-content: space-between;
+}
+
+/* TAMANHO E PADDING DO NOME EGRINALDO FERREIRA */
+
+.navBar h2 {
+    size: 16px;
+    padding: 0.5rem;
+}
+
+/* AJUSTE INDIVIDUAL NAS FONTES E CORES DO NOME EGRINALDO FERREIRA */
+
+.nome1{
+    color: var(--color-2);
+    font-family: 'Mona-Sans', sans-serif;
+    font-weight: 500;
+    width: 100;
+}
+
+.nome2 {
+    color: var(--color-3);
+    font-family: 'Mona-Sans', sans-serif;
+    font-weight: 200;
+    width: 125;
+}
+
+/* CONFIGURAÇÃO DOS ITENS DO MENU OS SELETORES  */
+
+.navMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1% 0 0;
+    margin-left: -15rem;
+}
+
+
+.navUl{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    padding: 0;
+
+}
+.navUl li{
+    color: var(--color-6);
+    float: left;
+    font-family: 'Mona-Sans', sans-serif;
+    font-size: 10;
+    font-weight: 400;
+}
+
+.navUl li:hover{
+    color: var(--color-1);
+}
+
+.iconEmail{
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    width: 40px;
+    height: 40px;
+}
+
+@media (min-device-width: 320px) and (max-device-width: 480px)  {
+
+}

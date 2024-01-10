@@ -1,0 +1,71 @@
+.apresenIni{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin: 0;
+}
+
+.apresenImg {
+    margin-top: 0.9rem;
+    padding: 0;
+}
+
+.apresenText{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 40px;
+    margin-top: 7rem;
+    margin-left: 2rem;
+
+}
+
+
+/* COMANDO PARA COLOCAR AS DUAS DIV INICIAIS SOBREPOSTAS */
+.apresenImg:last-child{
+    position: relative;
+    z-index: 10;
+    margin-left: -3rem;
+}
+
+.apresenText:first-child{
+    position: relative;
+    z-index: 20;
+}
+
+.apresenText h3{
+    width: 250px;
+    height: 27px;
+    padding: 12px;
+    background-color: var(--color-1);
+    border-radius: 10px;
+    font-family: 'Mona-Sans', sans-serif;
+    font-size: 12;
+    font-weight: 400;
+}
+
+.apresenText h2{
+    color: var(--color-1);
+    font-family: 'Mona-Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.apresenText h1{
+    width: 45rem;
+    color: var(--color-2);
+    font-family: 'Mona-Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.apresenText p {
+    text-align: left;
+    font-family: 'Mona-Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+
+}
+
+

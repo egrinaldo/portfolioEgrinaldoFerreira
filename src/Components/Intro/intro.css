@@ -1,0 +1,116 @@
+
+
+
+.introd {
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    gap: 8%;
+    margin: 0;
+    background-color: var(--color-4);
+    padding: 80px;
+}
+
+.introdSec1{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.designIntro {
+    display: flex;
+    align-items: center;
+    width: 448px;
+    height: 100px;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 30px 40px 30px 40px;
+    background-color: var(--color-5);
+    border-radius: 20px;
+}
+
+.designIntroH3 {
+    color: var(--color-1);
+    font-family: 'Mona-Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.designIntroP {
+    color: var(--color-3);
+    font-family: 'Mona-Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.imagenIntro {
+    width: 25px;
+    height: 24px;
+    margin-left: 2rem;
+    margin-top: -1rem;
+
+
+}
+
+/* TEXTO INTRO CONFIGURAÇÃO */
+
+.introdSec2 h4{
+    color: var(--color-3);
+    font-family: 'Mona-Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.introdSec2 h2{
+    width: 250px;
+    color: var(--color-2);
+    font-family: 'Mona-Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.introdSec2 h3{
+    color: var(--color-2);
+    font-family: 'Mona-Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.introdSec2 p{
+    width: 400px;
+    text-align: justify;
+    color: var(--color-3);
+    font-family: 'Mona-Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+/* LOGO EMPRESAS E TECNOLOGIAS CONFIGURAÇÃO */
+
+.logoEmpTec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8%;
+    margin: 0;
+    background-color: var(--color-4);
+}
+
+.logoEmpTecImg {
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    margin: 0;
+
+}
+.logoEmpTecImg2{
+    display: flex;
+    justify-content: center;
+    margin-left: -17rem;
+    gap: 7%;
+    padding-top: 1rem;
+}

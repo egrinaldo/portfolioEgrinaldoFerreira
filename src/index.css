@@ -1,0 +1,24 @@
+@import url('https://fonts.cdnfonts.com/css/mona-sans');
+
+:root {
+
+    /* Variavel global da paleta de cores utilizada no projeto */
+    --color-5: #2d2e32;
+    --color-4: #222326;
+    --color-3: #9e9ea7;
+    --color-2: #eaeaea;
+    --color-1: #59d990;
+    --color-6: #f2e8df;
+    --fontMona-1: ;
+}
+
+*{
+    margin: 0;
+    
+               
+}
+
+
+body{
+    background-color: var(--color-5);
+}
