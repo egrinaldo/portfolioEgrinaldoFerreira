@@ -146,3 +146,18 @@
         padding-top: 1rem;
     }
 }
+
+/* Desktops e laptops de resolucão muita alta */
+@media only screen and (min-width: 1281px){
+    .designIntro {
+        display: flex;
+        align-items: center;
+        width: 338px;
+        height: 100%;
+        justify-content: space-between;
+        gap: 50px;
+        padding: 30px 40px 30px 40px;
+        background-color: var(--color-5);
+        border-radius: 20px;
+    }
+}
