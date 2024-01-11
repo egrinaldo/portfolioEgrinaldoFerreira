@@ -146,7 +146,7 @@
     
 
     .apresenText h1{
-        width: 64rem;
+        width: 66rem;
         color: var(--color-2);
         font-family: 'Mona-Sans', sans-serif;
         font-size: 45px;
@@ -163,7 +163,8 @@
     
     }
     .apresenText p {
-        text-align: justify;
+        width: 30rem;
+        text-align: left;
         font-family: 'Mona-Sans', sans-serif;
         font-size: 30px;
         font-weight: 300;
