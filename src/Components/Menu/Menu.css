@@ -66,6 +66,34 @@
     height: 40px;
 }
 
-@media (min-device-width: 320px) and (max-device-width: 480px)  {
-
+/* Desktops e laptops de baixa resolucão */
+@media only screen and (max-width: 882px) {
+    .navBar {
+        display: flex;
+        width: auto;
+        height: 3rem;
+        background-color: var(--color-5);
+        justify-content: space-between;
+    }
+    
+    /* CONFIGURAÇÃO DOS ITENS DO MENU OS SELETORES  */
+    
+    .navMenu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1% 0 0;
+        margin-left: -1rem;
+    }
+    
+    .iconEmail{
+        padding: 0.5rem;
+        margin-top: 0.1rem;
+        margin-right: 0.5rem;
+        width: 30px;
+        height: 30px;
+    }
 }
+
+ 
+

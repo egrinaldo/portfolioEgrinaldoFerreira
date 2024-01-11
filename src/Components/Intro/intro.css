@@ -114,3 +114,35 @@
     gap: 7%;
     padding-top: 1rem;
 }
+
+/* Desktops e laptops de baixa resolucão */
+@media only screen and (max-width: 992px ) {
+    .designIntro {
+        display: flex;
+        align-items: center;
+        width: 338px;
+        height: 100px;
+        justify-content: space-between;
+        gap: 50px;
+        padding: 30px 40px 30px 40px;
+        background-color: var(--color-5);
+        border-radius: 20px;
+    }
+
+    .introdSec2 p{
+        width: 250px;
+        text-align: justify;
+        color: var(--color-3);
+        font-family: 'Mona-Sans', sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        margin-top: 30px;
+    }
+    .logoEmpTecImg2{
+        display: flex;
+        justify-content: center;
+        margin-left: -12.3rem;
+        gap: 7%;
+        padding-top: 1rem;
+    }
+}

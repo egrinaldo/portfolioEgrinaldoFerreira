@@ -9,20 +9,20 @@ export const Intro = () => {
                     <h3 className='designIntroH3'>Design 
                     <p className='designIntroP'>Criando Produtos digitais com ideias únicas.</p>
                     </h3>
-                    <img className='imagenIntro' src="src/img/icons8-design-100 1.png" alt="Imagem de um lapis e uma regua" />
+                    <img className='imagenIntro' src="./img/icons8-design-100 1.png" alt="Imagem de um lapis e uma regua" />
                 </div>
                 <div className='designIntro'> 
                     <h3 className='designIntroH3'>Front-End
                     <p className='designIntroP'>Materializando pensamentos por meio da programação web</p>
                     </h3>
-                    <img className='imagenIntro'  src="src/img/image 4.png" alt="Imagem de um html" />
+                    <img className='imagenIntro'  src="./img/image 4.png" alt="Imagem de um html" />
                 </div>
                 <div className='designIntro'> 
                     <h3 className='designIntroH3'>Gestão
                     <p className='designIntroP'>A gestão é sobre dar vida ás visões,
                      materializando-as através de planejamento eficaz e execução impecável.</p>
                     </h3>
-                    <img className='imagenIntro'  src="src/img/image 5.png" alt="Imagem de um homem" />
+                    <img className='imagenIntro'  src="./img/image 5.png" alt="Imagem de um homem" />
                 </div>
             </section>
 
@@ -37,15 +37,15 @@ export const Intro = () => {
             </div>
             <section className='logoEmpTec'>
                 <div className='logoEmpTecImg'>
-                <img src="src/img/image 6.png" alt="" />
-                <img src="src/img/image 7.png" alt="" />
-                <img src="src/img/image 8.png" alt="" />
-                <img src="src/img/image 9.png" alt="" />
+                <img src="./img/image 6.png" alt="" />
+                <img src="./img/image 7.png" alt="" />
+                <img src="./img/image 8.png" alt="" />
+                <img src="./img/image 9.png" alt="" />
 
                 </div>
                 <div className='logoEmpTecImg2'>
-                <img src="src/img/image 10.png" alt="" />
-                <img src="src/img/image 11.png" alt="" />
+                <img src="./img/image 10.png" alt="" />
+                <img src="./img/image 11.png" alt="" />
                 </div>
 
             </section>
