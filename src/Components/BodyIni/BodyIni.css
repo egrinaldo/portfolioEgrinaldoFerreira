@@ -127,9 +127,43 @@
     .apresenIni{
         display: flex;
         width: auto;
-        height: 50rem;
+        height: 55rem;
         justify-content: center;
         gap: 2%;
         margin: 0;
     }
+
+    .apresenImg {
+        width: 400px;
+        height: 400px;
+        margin-top: 0.9rem;
+        padding: 0;
+    }
+
+    .apresenImg:last-child{
+        position: relative;
+        z-index: 10;
+        margin-left: -5rem;
+    }
+    
+
+    .apresenText h1{
+        width: 40rem;
+        color: var(--color-2);
+        font-family: 'Mona-Sans', sans-serif;
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .apresenText{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        gap: 30px;
+        margin-top: 6rem;
+        margin-left: 5rem;
+    
+    }
 }
+
+
