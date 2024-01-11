@@ -12,7 +12,7 @@ export const Menu = () => {
                     <li>Contato</li>
                 </ul>
             </nav>
-            <img className='iconEmail' src="dist/assets/img/icons8-nova-mensagem-100.png" alt="" />
+            <img className='iconEmail' src="src/assets/img/image-removebg-preview (5) 1.png" alt="" />
         </div>
     )
 }

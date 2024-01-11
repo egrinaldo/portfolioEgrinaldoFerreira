@@ -9,7 +9,7 @@ export const BodyIni = () => {
             <p>Navegando pelo universo do desenvolvimento web, onde o código dá asas ás ideias.</p>
             <h2>VAMOS CONVERSAR !</h2>
         </section>
-        <img className='apresenImg' src="dist/assets/img/Component 1.png" alt="FOTO DO PROFISSIONAL" />
+        <img className='apresenImg' src="src/assets/img/Component 1.png" alt="FOTO DO PROFISSIONAL" />
         </div>
 
     )
