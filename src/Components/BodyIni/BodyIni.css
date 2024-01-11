@@ -121,3 +121,15 @@
 
 
 }
+
+/* Desktops e laptops de resolucão muita alta */
+@media only screen and (min-width: 1281px) {
+    .apresenIni{
+        display: flex;
+        width: auto;
+        height: 50rem;
+        justify-content: center;
+        gap: 2%;
+        margin: 0;
+    }
+}
