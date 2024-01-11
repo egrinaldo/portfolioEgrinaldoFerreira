@@ -149,14 +149,12 @@
 
 /* Desktops e laptops de resolucão muita alta */
 @media only screen and (min-width: 1281px){
-    .introd {
+    .logoEmpTecImg2{
         display: flex;
-        width: auto;
-        height: 150px;
         justify-content: center;
-        gap: 8%;
-        margin: 0;
-        background-color: var(--color-4);
-        padding: 80px;
+        margin-left: -23.5rem;
+        gap: 7%;
+        padding: 3rem 0rem 8rem 0rem;
     }
+
 }
