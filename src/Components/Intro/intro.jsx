@@ -29,7 +29,7 @@ export const Intro = () => {
             <section className='introdSec2'>
                 <h4>Introdução</h4>
                 <h2>Saudações!</h2>
-                <h2>Me chamo Egrinaldo Ferreira</h2>
+                <h2> Me chamo Egrinaldo Ferreira</h2>
                 <h3>Aprendendo hoje para criar o futuro.</h3>
                 <p>Desde o início da minha jornada como designer freelancer busco ser um especialista técnico em desenvolvimento web, também trago à mesa uma rica experiência em gestão de pessoas e processos.
                 Tenho a convicção de que a comunicação eficaz e a gestão de processos são tão cruciais quanto a produção de um código limpo e eficiente. Acredito que essas habilidades me permitem criar soluções de alta qualidade que atendem às suas necessidades e superam as suas expectativas.</p>

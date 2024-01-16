@@ -158,3 +158,99 @@
     }
 
 }
+
+/*resolucão  Mobile*/
+@media only screen and (max-width: 320px ){
+    .introd {
+        display: flex;
+        width: auto;
+        height: auto;
+        justify-content: center;
+        flex-direction: column-reverse;
+        gap: 8%;
+        margin-left: -4rem;
+        /* margin: 0; */
+        background-color: var(--color-4);
+        padding: 80px;
+    }
+
+    .designIntro {
+        display: flex;
+        align-items: center;
+        width: 200px;
+        height: auto;
+        justify-content: space-between;
+        gap: 50px;
+        padding: 30px 40px 30px 40px;
+        margin-top: 2rem;
+        background-color: var(--color-5);
+        border-radius: 20px;
+    }
+
+    .imagenIntro {
+        width: 25px;
+        height: 24px;
+        margin-left: 2rem;
+        margin-top: auto;
+    
+    
+    }
+
+    .logoEmpTecImg2{
+        display: flex;
+        justify-content: center;
+        margin-left: -8rem;
+        gap: 7%;
+        padding-top: 1rem;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px ){
+    .introd {
+        display: flex;
+        width: auto;
+        height: auto;
+        justify-content: center;
+        flex-direction: column-reverse;
+        gap: 8%;
+        /* margin: 0; */
+        background-color: var(--color-4);
+        padding: 80px;
+    }
+
+    .designIntro {
+        display: flex;
+        align-items: center;
+        width: 200px;
+        height: auto;
+        justify-content: space-between;
+        gap: 50px;
+        padding: 30px 40px 30px 40px;
+        margin-top: 2rem;
+        /* margin-left: 1rem; */
+        background-color: var(--color-5);
+        border-radius: 20px;
+    }
+
+    .imagenIntro {
+        width: 25px;
+        height: 24px;
+        margin-left: 2rem;
+        margin-top: auto;
+    
+    
+    }
+
+    .logoEmpTecImg2{
+        display: flex;
+        justify-content: center;
+        margin-left: -9.5rem;
+        gap: 7%;
+        padding-top: 1rem;
+    }
+
+    .introdSec2 {
+        margin-top: -2rem;
+        /* margin-left: 1rem; */
+    }
+}
