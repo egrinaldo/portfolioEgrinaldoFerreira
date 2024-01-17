@@ -28,9 +28,9 @@ export const Rodape = () => {
                 </ul>
                 </div>
                 <div className='rodapeImg'>
-                    <img src="./img/image 36.png" alt="Linkedin" />
-                    <img src="./img/image 37.png" alt="GitHub" />
-                    <img src="./img/image 38.png" alt="Instagram" />
+                    <Link to="https://www.linkedin.com/in/egrinaldojr/" target='_blank'><img src="./img/image 36.png" alt="Linkedin" /></Link>
+                    <Link to="https://github.com/egrinaldo" target='_blank'><img src="./img/image 37.png" alt="GitHub" /></Link>
+                    <Link to="https://www.instagram.com/junior__sarmento/" target='_blank'><img src="./img/image 38.png" alt="Instagram" /></Link>
                 </div>
                 </div>
     

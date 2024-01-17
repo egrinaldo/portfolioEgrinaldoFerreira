@@ -97,6 +97,7 @@
     justify-content: center;
     gap: 8%;
     margin: 0;
+    padding: 1rem;
     background-color: var(--color-4);
 }
 
