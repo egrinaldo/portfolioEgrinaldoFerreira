@@ -13,7 +13,7 @@ export const Menu = () => {
                     <li><Link to="/contato" className='navUlList'>Contato</Link></li>
                 </ul>
             </nav>
-            <Link to="/contato"><img className='iconEmail' src="./img/icons8-nova-mensagem-100.png" alt="" /></Link>
+            <Link to="/contato" className='iconEmailLink'><img className='iconEmail' src="./img/icons8-nova-mensagem-100.png" alt="" /></Link>
             
         </div>
     )

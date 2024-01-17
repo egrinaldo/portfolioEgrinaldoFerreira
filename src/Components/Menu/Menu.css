@@ -124,6 +124,10 @@
         height: 20px;
     }
 
+    .iconEmailLink{
+        margin-top: -1.1rem;
+    }
+
     .navUlList{
         color: var(--color-6);
         float: left;
@@ -161,6 +165,10 @@
         margin-left: 17rem;
         width: 20px;
         height: 20px;
+    }
+
+    .iconEmailLink{
+        margin-top: -1.1rem;
     }
 
     .navUlList{
