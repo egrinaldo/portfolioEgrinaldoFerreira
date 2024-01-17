@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Menu.css'
 
 export const Menu = () => {
@@ -6,13 +7,14 @@ export const Menu = () => {
             <h2><span className='nome1'>Egrinaldo</span> <span className='nome2'>Ferreira</span></h2>
             <nav className='navMenu'>
                 <ul className='navUl'>
-                    <li>Inicio</li>
-                    <li>Projetos</li>
-                    <li>Aperfeiçoamentos</li>
-                    <li>Contato</li>
+                    <li><Link to="/" className='navUlList'>Inicio</Link></li>
+                    <li><Link to="/projeto" className='navUlList'>Projetos</Link></li>
+                    <li><Link to="/aperfeicoamento" className='navUlList'>Aperfeiçoamentos</Link></li>
+                    <li><Link to="/contato" className='navUlList'>Contato</Link></li>
                 </ul>
             </nav>
-            <img className='iconEmail' src="./img/icons8-nova-mensagem-100.png" alt="" />
+            <Link to="/contato"><img className='iconEmail' src="./img/icons8-nova-mensagem-100.png" alt="" /></Link>
+            
         </div>
     )
 }

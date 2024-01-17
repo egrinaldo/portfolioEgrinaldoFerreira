@@ -47,15 +47,16 @@
     padding: 0;
 
 }
-.navUl li{
+.navUlList{
     color: var(--color-6);
     float: left;
     font-family: 'Mona-Sans', sans-serif;
     font-size: 10;
     font-weight: 400;
+    text-decoration: none;
 }
 
-.navUl li:hover{
+.navUlList:hover{
     color: var(--color-1);
 }
 
@@ -123,7 +124,7 @@
         height: 20px;
     }
 
-    .navUl li{
+    .navUlList{
         color: var(--color-6);
         float: left;
         font-family: 'Mona-Sans', sans-serif;
@@ -162,7 +163,7 @@
         height: 20px;
     }
 
-    .navUl li{
+    .navUlList{
         color: var(--color-6);
         float: left;
         font-family: 'Mona-Sans', sans-serif;

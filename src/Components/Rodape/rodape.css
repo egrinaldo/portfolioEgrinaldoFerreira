@@ -43,7 +43,17 @@
 
 .rodapeGreen{
     color: var(--color-1);
+    text-decoration: none;
 }
+
+
+
+.rodapeGreen:hover{
+    color: var(--color-2);
+    border-radius: 10%;
+    transition: 0.5s;
+}
+
 
 .rodapeSec2{
     display: flex;
@@ -74,12 +84,13 @@
     font-weight: 200;
 }
 
-.navUlFoot li{
+.navUlFootList{
     color: var(--color-6);
     float: left;
     font-family: 'Mona-Sans', sans-serif;
     font-size: 8px;
     font-weight: 400;
+    text-decoration: none;
 }
 
 .navUlFoot{
@@ -92,7 +103,7 @@
 
 }
 
-.navUlFoot li:hover{
+.navUlFootList:hover{
     color: var(--color-1);
 }
 
@@ -140,6 +151,7 @@
         gap: 0.2rem;
         width: 15rem;
         margin: auto;
+        text-align: center;
         font-size: 16px;
     }
 
@@ -147,5 +159,43 @@
 }
 
 @media only screen and (min-width: 321px) and (max-width: 480px ){
+    .rodapeGeral{
+        align-items: center;
+    }
+    .rodapeSec1{
+        display: flex;
+        gap: 3rem;
+        flex-direction: column-reverse;
+        margin: auto;
+    }
+
+    .rodapeText {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .rodapeBase{
+        margin-top: 2rem;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rodapeSec2{
+        justify-content: center;
+        margin: auto;
+    }
+
+    
+    
+    .rodapeH {
+        gap: 0.2rem;
+        width: 15rem;
+        text-align: center;
+        margin: auto;
+        font-size: 16px;
+    }
 
 }

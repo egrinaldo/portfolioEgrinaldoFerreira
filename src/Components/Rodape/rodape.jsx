@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './rodape.css'
 
 export const Rodape = () => {
@@ -6,7 +7,7 @@ export const Rodape = () => {
             <section className='rodapeSec1'>
                 <div className='rodapeText'>
                     <h2 className='rodapeH'>Vamos trabalhar juntos em algo incrível <span className='rodapeGreen'>?</span></h2>
-                    <h2 className='rodapeH'>Comece Dizendo <span className='rodapeGreen'>Oi</span></h2>
+                    <h2 className='rodapeH'>Comece Dizendo <Link to="/contato" className='rodapeGreen'>Oi</Link></h2>
                     <div className='rodapeBase'>
                     <h3><span className='nome1'>Egrinaldo</span> <span className='nome2'>Ferreira</span></h3>
                     <h3 className='rodapeReserved'>© 2024. All Rights Reserved</h3>
@@ -20,10 +21,10 @@ export const Rodape = () => {
 
                 <div>
                 <ul className='navUlFoot'>
-                    <li>Inicio</li>
-                    <li>Projetos</li>
-                    <li>Aperfeiçoamentos</li>
-                    <li>Contato</li>
+                    <li><Link to="/" className='navUlFootList'>Inicio</Link></li>
+                    <li><Link to="/projeto" className='navUlFootList'>Projetos</Link></li>
+                    <li><Link to="/aperfeicoamento" className='navUlFootList'>Aperfeiçoamentos</Link></li>
+                    <li><Link to="/contato" className='navUlFootList'>Contato</Link></li>
                 </ul>
                 </div>
                 <div className='rodapeImg'>
