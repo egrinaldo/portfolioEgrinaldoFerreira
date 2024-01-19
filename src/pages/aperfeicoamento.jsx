@@ -1,9 +1,14 @@
+import { AperfeiPag } from "../Components/Aperfeicoamento/AperfeiPag"
+import { Menu } from "../Components/Menu/Menu"
+import { Rodape } from "../Components/Rodape/rodape"
 
 
 export const Aperfeicoamento = () => {
     return (
-        <div>
-            <h1>TESTE</h1>
-        </div>
+        <>
+            <Menu />
+            <AperfeiPag />
+            <Rodape />
+        </>
     )
 }

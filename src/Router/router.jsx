@@ -19,7 +19,7 @@ export const router = createBrowserRouter([
     },
     {
         path: "aperfeicoamento",
-        element:<Error404 />
+        element:<Aperfeicoamento />
     },
     {
         path: "contato",
