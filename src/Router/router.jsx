@@ -3,6 +3,8 @@ import { Home } from "../pages/home";
 import { Projeto } from "../pages/projeto";
 import { Aperfeicoamento } from "../pages/aperfeicoamento";
 import { Contato } from "../pages/contato";
+import { Error404 } from "../pages/error404";
+
 
 
 
@@ -17,14 +19,14 @@ export const router = createBrowserRouter([
     },
     {
         path: "aperfeicoamento",
-        element:<Aperfeicoamento />
+        element:<Error404 />
     },
     {
         path: "contato",
-        element: <Contato />
+        element: <Error404 />
     },
     {
         path: "*",
-        element: <h1>Página Não Encontrada</h1>
+        element: <Error404 />
     }
   ]);
