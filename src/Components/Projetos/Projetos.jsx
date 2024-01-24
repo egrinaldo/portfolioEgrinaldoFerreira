@@ -17,7 +17,7 @@ export const Projetos = () => {
                         <li className='projetoGradeUlLi'>Html</li>
                     </ul>
                     </div>
-                    <img src="./img/Rectangle 13.png" alt="" />
+                    <img src="./img/Rectangle 13 (1).png" alt="" />
                 </div>
 
                 <h3 className='projetoGradeHBase'>+ Projetos</h3>
@@ -37,7 +37,7 @@ export const Projetos = () => {
                         <li className='projetoGradeUlLi'>Html</li>
                     </ul>
                     </div>
-                    <img src="./img/Rectangle 13.png" alt="" />
+                    <img src="./img/Rectangle 13 (1).png" alt="" />
                 </div>
                 <div className='projetoBloco'>
                 <div className='projetoGrade'>
@@ -48,7 +48,7 @@ export const Projetos = () => {
                         <li className='projetoGradeUlLi'>Html</li>
                     </ul>
                     </div>
-                    <img src="./img/Rectangle 13.png" alt="" />
+                    <img src="./img/Rectangle 13 (1).png" alt="" />
                 </div>
             </div>
         </section>
