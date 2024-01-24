@@ -28,3 +28,24 @@
     border-block-end: groove 0.5px;
     box-sizing: border-box;
 }
+
+@media only screen and (max-width: 320px ){
+    .ImputTxTBase textarea{
+        display: flex;
+        width: 15rem;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px ){
+    .ImputTxTBase textarea{
+        display: flex;
+        width: 20rem;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 926px ){
+    .ImputTxTBase textarea{
+        display: flex;
+        width: 30rem;
+    }
+}

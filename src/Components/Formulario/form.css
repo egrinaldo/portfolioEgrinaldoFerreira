@@ -84,3 +84,56 @@
     font-weight: 200;
 }
 
+
+@media only screen and (max-width: 320px ){
+    .formImputTxT{
+        flex-direction: column;
+        padding: 0rem 0rem 0rem 1rem;
+
+    }
+    .formBloc1{
+        width: auto;
+        padding: 4rem 0rem 2rem 3rem;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px ){
+
+    .formBase{
+        width: auto;
+    }
+    .formImputTxT{
+        width: auto;
+        flex-direction: column;
+        padding: 0rem 0rem 0rem 0rem;
+
+    }
+    .formBloc1{
+        width: auto;
+        padding: 4rem 0rem 2rem 6rem;
+    }
+
+    .formBase2{
+        padding: 0rem 0rem 0rem 2rem;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 926px ){
+    .formBase{
+        width: auto;
+    }
+    .formImputTxT{
+        width: auto;
+        flex-direction: column;
+        padding: 0rem 0rem 0rem 0rem;
+
+    }
+    .formBloc1{
+        width: auto;
+        padding: 4rem 0rem 2rem 12rem;
+    }
+
+    .formBase2{
+        padding: 0rem 0rem 0rem 2rem;
+    }
+}

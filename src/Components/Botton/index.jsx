@@ -3,18 +3,20 @@ import toast, { Toaster } from 'react-hot-toast'
 
 export const Button = (props) => {
 
-    const notif = () =>{
-        toast.success('Mensagem Enviada com Sucesso!',{
-            duration: 5000,
-        }
-        )
+    // const notif = () =>{
+    //     toast.success('Mensagem Enviada com Sucesso!',{
+    //         duration: 5000,
+    //     }
+    //     )}
+    // onClick={notif}
+    // <Toaster />
 
     return (
         <div>
-            <button onClick={notif} className='buttonForm'>
+            <button  className='buttonForm'>
             {props.texto}
             </button>
-            <Toaster />
+     
         </div>
 
     )
