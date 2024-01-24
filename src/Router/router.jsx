@@ -23,7 +23,7 @@ export const router = createBrowserRouter([
     },
     {
         path: "contato",
-        element: <Error404 />
+        element: <Contato />
     },
     {
         path: "*",

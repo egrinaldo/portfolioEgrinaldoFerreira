@@ -1,0 +1,32 @@
+.ImputTxTBase{
+    margin: 24px 0;
+    /* display: flex;
+    flex-direction: column;
+    padding: 0rem 0rem 2rem 10rem; */
+}
+
+.ImputTxTBase label{
+    display: block;
+    margin-bottom: 8px;
+    color: var(--color-2);
+    font-family: 'Mona-Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.ImputTxTBase label span{
+    color: red;
+}
+
+.ImputTxTBase input{
+    color: var(--color-3);
+    width: 30rem;
+    font-family: 'Mona-Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+    background: none;
+    border: none;
+    border-block-end: groove 0.5px;
+    padding-bottom: 0.3rem;
+    box-sizing: border-box;
+}

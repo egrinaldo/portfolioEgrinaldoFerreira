@@ -1,0 +1,15 @@
+.buttonForm{
+    margin-bottom: 4rem;
+    width: 4.75rem;
+    height: 2.31rem;
+    background-color: var(--color-1);
+    border: none;
+    border-radius: 12px;
+    font-family: 'Mona-Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.buttonForm :hover{
+    color: var(--color-2);
+}

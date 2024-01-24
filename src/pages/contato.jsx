@@ -1,9 +1,13 @@
 
+import { Form } from "../Components/Formulario/form"
+import { Menu } from "../Components/Menu/Menu"
+import { Rodape } from "../Components/Rodape/rodape"
+
 
 export const Contato = () => {
     return (
-        <div>
-            <h1>TESTE</h1>
-        </div>
+        <><Menu />
+        <Form />
+        <Rodape /></>
     )
 }
