@@ -1,11 +1,28 @@
 import { Link } from 'react-router-dom'
 import './form.css'
+import emailjs from 'emailjs-com'
 import { ImputTxT } from '../inputTexto/imputTxT'
 import { TextArea } from '../inputTexto/textAr'
 import { Button } from '../Botton'
+import { useRef } from 'react'
 
 
 export const Form = () => {
+
+    const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('gmailMessage', 'template_9as58h9', form.current, '2xNo3p1NTSk0-1Goa')
+      .then((result) => {
+          console.log(result.notif);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+  };
+
     return (
         <div className='formBase'>
             <div className='formBloc1'>
@@ -15,18 +32,19 @@ export const Form = () => {
             </div>
 
             <section className='formBase2'>
-                <form action=""  className='formImputTxT'>
+                <form  ref={form} onSubmit={sendEmail}  className='formImputTxT'>
                 
-                    <ImputTxT className='formImputLabel' place="Nome Completo" >Nome <span className='redStar'>*</span></ImputTxT>
-                    <ImputTxT className='formImputLabel' place="Endereço de E-mail" >E-mail <span className='redStar'>*</span></ImputTxT>
+                    <ImputTxT required name='Nome' className='formImputLabel' place="Nome Completo" >Nome <span className='redStar'>*</span></ImputTxT>
+                    <ImputTxT required name='Email' className='formImputLabel' place="Endereço de E-mail" >E-mail <span className='redStar'>*</span></ImputTxT>
                 
              
-                    <ImputTxT className='formImputLabel' place='Telefone Para Contato'>Telefone <span className='obsId'> (opcional)</span></ImputTxT>
-                    <ImputTxT className='formImputLabel' place="URL - Link Figma" >Figma <span className='obsId'> (opcional)</span></ImputTxT>
+                    <ImputTxT name='Telefone' className='formImputLabel' place='Telefone Para Contato'>Telefone <span className='obsId'> (opcional)</span></ImputTxT>
+                    <ImputTxT name='URL-Figma' className='formImputLabel' place="URL - Link Figma" >Figma <span className='obsId'> (opcional)</span></ImputTxT>
 
-                    <TextArea label="Mensagem" placeholder="Escreva sua mensagem aqui ..." />
+                    <TextArea name="Mensagem" label="Mensagem" placeholder="Escreva sua mensagem aqui ..." />
 
                     <Button texto='Enviar' />
+
             
                 </form>
 

@@ -8,8 +8,6 @@ export const Button = (props) => {
             duration: 5000,
         }
         )
-        
-    }
 
     return (
         <div>
