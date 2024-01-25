@@ -16,9 +16,9 @@ export const Form = () => {
 
     emailjs.sendForm('gmailMessage', 'template_9as58h9', form.current, '2xNo3p1NTSk0-1Goa')
       .then((result) => {
-          console.log(result.notif);
+          alert('Mensagem Enviada Com Sucesso!');
       }, (error) => {
-          console.log(error.text);
+          alert(error.message);
       });
       e.target.reset();
   };

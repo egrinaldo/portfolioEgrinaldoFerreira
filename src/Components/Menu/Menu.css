@@ -107,7 +107,7 @@
         display: flex;
         width: auto;
         align-items: center;
-        margin-left: 2rem;
+        margin-left: auto;
         height: 3rem;
         background-color: var(--color-5);
         /* justify-content: space-between; */
@@ -150,7 +150,50 @@
         display: flex;
         width: auto;
         align-items: center;
-        margin-left: -2rem;
+        margin-left: auto;
+        height: 3rem;
+        background-color: var(--color-5);
+        /* justify-content: space-between; */
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .iconEmail{
+        padding: 0.5rem;
+        margin-top: -2.4rem;
+        margin-right: 0.5rem;
+        margin-left: 17rem;
+        width: 20px;
+        height: 20px;
+    }
+
+    .iconEmailLink{
+        margin-top: -1.1rem;
+    }
+
+    .navUlList{
+        color: var(--color-6);
+        float: left;
+        font-family: 'Mona-Sans', sans-serif;
+        font-size: 8px;
+        font-weight: 400;
+    }
+
+    .navUl{
+        display: flex;
+        list-style-type: none;
+        gap: 20px;
+        padding: 0;
+    
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 692px ){
+    .navBar {
+        display: flex;
+        width: auto;
+        align-items: center;
+        margin-left: auto;
         height: 3rem;
         background-color: var(--color-5);
         /* justify-content: space-between; */
