@@ -14,7 +14,7 @@ export const Form = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('gmailMessage', 'template_9as58h9', form.current, '2xNo3p1NTSk0-1Goa')
+    emailjs.sendForm('Message', 'template_9as', form.current, '2xNo3p1NTSk0-')
       .then((result) => {
           alert('Mensagem Enviada Com Sucesso!');
       }, (error) => {
